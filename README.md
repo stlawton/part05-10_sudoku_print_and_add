@@ -27,6 +27,7 @@ print_sudoku(sudoku)
 ```
 Sample output:  
 -----
+```
 _ _ _  _ _ _  _ _ _
 _ _ _  _ _ _  _ _ _
 _ _ _  _ _ _  _ _ _
@@ -52,8 +53,8 @@ _ _ _  _ _ _  _ 3 _
 _ _ _  _ _ _  _ _ _
 _ _ _  _ _ _  _ _ _
 _ _ _  _ _ _  _ _ _
+```
 -----
-
 Hint
 
 Remember it is possible to call the print function without causing a line change:
