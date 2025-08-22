@@ -63,9 +63,9 @@ print("characters ", end="")
 print("without carriage returns", end="")
 ```
 Sample output:  
------
+```
 characters without carriage returns
------
+```
 Sometimes you need just a new line, which a print statement without any argument will achieve:
 ```
 print()
