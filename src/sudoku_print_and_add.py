@@ -3,11 +3,10 @@ def print_sudoku(sudoku: list):
   while row < 9:
     column = 0
     while column < 9:
+      if column > 0 and column % 3 == 0:
+        print(" ", end="")
       if sudoku[row][column] == 0:
-        if column > 0 and column % 3 == 0:
-          print(" _ ", end="")
-        else:
-          print("_ ", end="")
+        print("_ ", end="")
       else:
         print(sudoku[row][column], end=" ")
       column += 1
